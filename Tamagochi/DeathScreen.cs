@@ -118,6 +118,7 @@ namespace Tamagochi
             Console.WriteLine("");
             Console.WriteLine("Press any key to return to menu");
             Console.ReadKey();
+            Console.Clear();
             menu.Setup();
      
         }   
