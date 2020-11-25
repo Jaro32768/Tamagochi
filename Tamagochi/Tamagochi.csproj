@@ -43,8 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicGraphics.cs" />
+    <Compile Include="Color.cs" />
+    <Compile Include="Credits.cs" />
+    <Compile Include="DeathScreen.cs" />
+    <Compile Include="Difficulty.cs" />
+    <Compile Include="FirstOpen.cs" />
+    <Compile Include="Food.cs" />
+    <Compile Include="HowToPlay.cs" />
+    <Compile Include="Hygiene.cs" />
+    <Compile Include="Intro.cs" />
+    <Compile Include="Load.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="Options.cs" />
+    <Compile Include="Playing.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Save.cs" />
+    <Compile Include="Sleeping.cs" />
+    <Compile Include="Speed.cs" />
+    <Compile Include="Walking.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
