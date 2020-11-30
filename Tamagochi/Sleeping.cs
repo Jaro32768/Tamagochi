@@ -169,26 +169,26 @@ namespace Tamagochi
                         Console.WriteLine("Good Answer");
                         if (firstOpen.GetDifficulty() == 0)
                         {
-                            satietyStat.MinusSatietyStat(5);
-                            happinessStat.MinusHappinessStat(3);
-                            PlusEnergyStat(3);
-                            fitnessStat.MinusFitnessStat(2);
+                            satietyStat.MinusSatietyStat(1);
+                            happinessStat.MinusHappinessStat(1);
+                            PlusEnergyStat(1);
+                            fitnessStat.MinusFitnessStat(1);
                             a++;
                         }
                         else if (firstOpen.GetDifficulty() == 1)
                         {
-                            satietyStat.MinusSatietyStat(10);
-                            happinessStat.MinusHappinessStat(6);
-                            PlusEnergyStat(6);
-                            fitnessStat.MinusFitnessStat(4);
+                            satietyStat.MinusSatietyStat(2);
+                            happinessStat.MinusHappinessStat(2);
+                            PlusEnergyStat(2);
+                            fitnessStat.MinusFitnessStat(2);
                             a++;
                         }
                         else
                         {
-                            satietyStat.MinusSatietyStat(20);
-                            happinessStat.MinusHappinessStat(12);
-                            PlusEnergyStat(12);
-                            fitnessStat.MinusFitnessStat(8);
+                            satietyStat.MinusSatietyStat(4);
+                            happinessStat.MinusHappinessStat(4);
+                            PlusEnergyStat(4);
+                            fitnessStat.MinusFitnessStat(4);
                             a++;
                         }
                     }

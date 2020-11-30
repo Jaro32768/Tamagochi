@@ -12,7 +12,7 @@ namespace Tamagochi
         /// </summary>
         public void FitnessIntro()
         {
-            string fitnessIntro = "Your goal in this minigame to choose the path which suits the animals current mood.After your done you need to do Hygien in less then an hour or you suffer a penalty.";
+            string fitnessIntro = "Your goal in this minigame to choose the path which suits the animals current mood.After your done you need to do Hygiene in less then an hour or you suffer a penalty.";
             for (int i = 0; i < fitnessIntro.Length; i++)
             {
                 Console.Write(fitnessIntro[i]);
@@ -122,7 +122,7 @@ namespace Tamagochi
             }
             else if (charmood == 3)
             {
-                Console.WriteLine($"{animalName} meet people.");
+                Console.WriteLine($"{animalName} wants to meet people.");
             }
             Thread.Sleep(2000);
             Console.WriteLine(@"    /\/\/\  /\         /\    /\        _   _
